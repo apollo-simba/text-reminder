@@ -11,7 +11,7 @@ type TaskType = {
 type TaskProps = {
   task: TaskType;
 };
-
+// this is the main component//
 const Task: React.FC<TaskProps> = ({ task }) => {
   const { title, description, dueDateTime } = task;
 
