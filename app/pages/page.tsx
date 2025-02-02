@@ -64,7 +64,7 @@ export default function Home() {
 
   },[tasks]);
     
-
+// this is the  handletask//
   const removeTask = (id: number): void => {
     console.log("add clicked");
     setTasks((prevTasks) => prevTasks.filter((task) => task.id !== id));
